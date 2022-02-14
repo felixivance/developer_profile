@@ -7,6 +7,8 @@ export default function Home() {
       <Head>
         <title>Jonathan Specter Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+       
+      
       </Head>
   
   {/* nav */}
@@ -14,7 +16,7 @@ export default function Home() {
         {/* left  */}
         <div className='text-white'>
           {/* <Image src="/assets/images/jp_morgan.svg" alt="Jonathan Specter logo" className="w-10 h-10" width={100} height={70} /> */}
-          <p className='text-xl'>Johnathan Specter</p>
+          <p className='text-xl text-gray-200 font-play-fair'>Johnathan Specter</p>
         </div>
           
         {/* right */}
@@ -24,9 +26,9 @@ export default function Home() {
       </div>
 
 {/*     Main banner */}
-      <section className='pl-3 pr-3'>
+      <section className='pl-3 pr-3 pt-5'>
         <div className='text-white'>
-          <p className='text-4xl'>Helping Companies build better, scalable software.</p>
+          <p className='text-4xl font-play-fair'>Helping Companies build better, scalable software.</p>
 
           <p className='text-gray-400'>Award-winning web developer and author, with over 15+ years of working experience with 
             Fortune 500 companies like Apple, Google, Facebook and more. </p>
