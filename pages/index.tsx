@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="bg-black h-[100%]">
+    <div className="bg-black h-[100%] pl-8 pr-8">
       <Head>
         <title>Jonathan Specter Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,7 +26,7 @@ export default function Home() {
             <p>About</p>
           </div>
           {/* right desktop */}
-        <div className='hidden md:inline-flex'>
+        <div className='hidden md:inline-flex pr-3'>
             <div className='bg-yellow-300 pt-2 pb-2 pl-4 pr-4 text-black font-play-fair  '>
               Get in touch
               </div>
@@ -48,8 +48,8 @@ export default function Home() {
       </section>
       {/* images  */}
      <section id="brands" className="pl-3 pr-3">
-      <div className='flex space-x-4  mx-auto  items-center'>
-        <div className='flex items-center'>
+      <div className='flex space-x-4 items-center align-middle justify-center'>
+        <div className=' '>
         <Image src="/assets/images/Walmart.svg" alt="walmart"  width={100} height={100} />
         </div>
         <div className=''>
@@ -70,19 +70,19 @@ export default function Home() {
         </div>
      </section>
 
-      <section className='pl-3 pr-3'>
-        <div className='flex flex-col'>
+      <section className='pl-3 pr-3 pb-6'>
+        <div className=' md:inline-flex md:space-x-6'>
         
           <div className='flex flex-col  text-white pt-3'>
             <Image src="/assets/images/Spense.png" alt="spense" className="rounded-md" width={500} height={400} />
-            <p className="text-4xl font-play-fair ">Spense.com</p> 
+            <p className="text-4xl font-play-fair pt-4 pb-4 ">Spense.com</p> 
             <p className="text-gray-400">Rethinking the way writers get paid, an open-source platform designed to help writers
               focus more on writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc
             </p>
           </div>
-          <div className='flex flex-col text-white pt-3'>
+          <div className='flex flex-col text-white pt-3 '>
             <Image src="/assets/images/YelpCamp.png" alt="spense" className="rounded-md" width={500} height={400} />
-            <p className="text-4xl font-play-fair ">YelpCamp.com</p> 
+            <p className="text-4xl font-play-fair pt-4 pb-4 ">YelpCamp.com</p> 
             <p className="text-gray-400">Rethinking the way writers get paid, an open-source platform designed to help writers
               focus more on writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc
             </p>
@@ -92,36 +92,40 @@ export default function Home() {
       </section>
 
       <section className="pl-3 pr-3 bg-gray-800 text-white">
-        <div className="pt-20 pb-20 flex flex-col space-y-4">
-          <p className="text-4xl font-play-fair">A co-founder at one of the world's largest communities</p>
+        <div className="pt-20 pb-20 md:flex md:space-x-4">
+          <div className="flex flex-col space-y-4">
+            <p className="text-4xl font-play-fair">A co-founder at one of the world's largest communities</p>
+            <p className='text-gray-400'>
+              The combined experience I have been working at top Fortune 500 companies has allowed me to develop 
+              a skillset that helps me in not just development , but in every aspect in business.
+            </p>
+            <p className='text-gray-400'>
+              I'm proud to announce that i am now working at one of the world's largest communities. Teaching
+              young minds about how to sell yourself as a developer and open them to a whole new world of opportunities.
+            </p>
+          </div>
+         <div className='flex flex-col space-y-4'>
           <p className='text-gray-400'>
-            The combined experience I have been working at top Fortune 500 companies has allowed me to develop 
-            a skillset that helps me in not just development , but in every aspect in business.
-          </p>
-          <p className='text-gray-400'>
-            I'm proud to announce that i am now working at one of the world's largest communities. Teaching
-            young minds about how to sell yourself as a developer and open them to a whole new world of opportunities.
-          </p>
-          <p className='text-gray-400'>
-            As a developer you have everything available to you and all thats holding you back is yourself.
-          </p>
-          <p className='text-gray-400'>
-            A quote I live by  perfectly illustrates what i mean
-          </p>
-          <p className='text-gray-400'>
-            "How big would you dream, if you knew you wouldn't fail?" You've already gone through the hardest
-            parts of being a developer, its time to elavate your skills and become a leader in something you are passionate
-            about.
-          </p>
-          <p className='text-gray-400'>
-            I'm happy to chat over coffee sometime about how i can help your company
-          </p>
+              As a developer you have everything available to you and all thats holding you back is yourself.
+            </p>
+            <p className='text-gray-400'>
+              A quote I live by  perfectly illustrates what i mean
+            </p>
+            <p className='text-gray-400'>
+              "How big would you dream, if you knew you wouldn't fail?" You've already gone through the hardest
+              parts of being a developer, its time to elavate your skills and become a leader in something you are passionate
+              about.
+            </p>
+            <p className='text-gray-400'>
+              I'm happy to chat over coffee sometime about how i can help your company
+            </p>
+         </div>
         </div>
       </section>
       <section className="pl-3 pr-3 text-white">
         <div className='flex flex-col pt-20 space-y-5 pb-20'>
           <p className='text-4xl font-play-fair'>Interested in working with me?</p>
-          <p className='text-gray-400'>
+          <p className='text-gray-400 max-w-2xl'>
             I am active on all social media platforms listed below, but you can also reach me via email,
             and i will get back to you within 24 hours.
           </p>
