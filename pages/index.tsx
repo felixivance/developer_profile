@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="bg-black h-[100vh]">
+    <div className="bg-black h-[100%]">
       <Head>
         <title>Jonathan Specter Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -35,26 +35,66 @@ export default function Home() {
         </div>
       </section>
       {/* images  */}
+     <section id="brands" className="pl-3 pr-3">
       <div className='flex  space-x-2 justify-items-center'>
-       <div>
-       <Image src="/assets/images/Walmart.svg" alt="walmart"  width={100} height={100} />
-       </div>
-       <div>
-        <Image src="/assets/images/jp_morgan.svg" alt="jp"  width={100} height={100} />
-       </div>
-       <div>
-        <Image src="/assets/images/Visa.svg" alt="jp"  width={100} height={100} />
-       </div>
-       <div>
-        <Image src="/assets/images/Tinder.svg" alt="jp"  width={100} height={100} />
-       </div>
-       <div>
-        <Image src="/assets/images/Samsung.svg" alt="jp"  width={100} height={100} />
-       </div>
-       <div>
-        <Image src="/assets/images/Verizon.svg" alt="jp"  width={100} height={100} />
-       </div>
-      </div>
+        <div>
+        <Image src="/assets/images/Walmart.svg" alt="walmart"  width={100} height={100} />
+        </div>
+        <div>
+          <Image src="/assets/images/jp_morgan.svg" alt="jp"  width={100} height={100} />
+        </div>
+        <div>
+          <Image src="/assets/images/Visa.svg" alt="visa"  width={100} height={100} />
+        </div>
+        <div>
+          <Image src="/assets/images/Tinder.svg" alt="tinder"  width={100} height={100} />
+        </div>
+        <div>
+          <Image src="/assets/images/Samsung.svg" alt="samsung"  width={100} height={100} />
+        </div>
+        <div>
+          <Image src="/assets/images/Verizon.svg" alt="verizon"  width={100} height={100} />
+        </div>
+        </div>
+     </section>
+
+      <section className='pl-3 pr-3'>
+        <div className='flex flex-col'>
+        
+          <div className='flex flex-col  text-white pt-3'>
+            <Image src="/assets/images/Spense.png" alt="spense" className="rounded-md" width={500} height={400} />
+            <p className="text-4xl font-play-fair ">Spense.com</p> 
+            <p className="text-gray-400">Rethinking the way writers get paid, an open-source platform designed to help writers
+              focus more on writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc
+            </p>
+          </div>
+          <div className='flex flex-col text-white pt-3'>
+            <Image src="/assets/images/YelpCamp.png" alt="spense" className="rounded-md" width={500} height={400} />
+            <p className="text-4xl font-play-fair ">YelpCamp.com</p> 
+            <p className="text-gray-400">Rethinking the way writers get paid, an open-source platform designed to help writers
+              focus more on writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section className="pl-3 pr-3 bg-gray-800 text-white">
+        <div className="pt-10 flex flex-col">
+          <p className="text-4xl font-play-fair">A co-founder at one of the world's largest communities</p>
+          <p className='text-gray-400'>
+            The combined experience I have been working at top Fortune 500 companies has allowed me to develop 
+            a skillset that helps me in not just development , but in every aspect in business.
+          </p>
+          <p className='text-gray-400'>
+            I'm proud to announce that i am now working at one of the world's largest communities. Teaching
+            young minds about how to sell yourself as a developer and open them to a whole new world of opportunities.
+          </p>
+          <p className='text-gray-400'>
+            As a developer you have everything available to you and all thats holding you back is yourself.
+          </p>
+        </div>
+      </section>
     </div>
   )
 }
