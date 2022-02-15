@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       <section className="pl-3 pr-3 bg-gray-800 text-white">
-        <div className="pt-10 flex flex-col">
+        <div className="pt-20 pb-20 flex flex-col space-y-4">
           <p className="text-4xl font-play-fair">A co-founder at one of the world's largest communities</p>
           <p className='text-gray-400'>
             The combined experience I have been working at top Fortune 500 companies has allowed me to develop 
@@ -92,6 +92,17 @@ export default function Home() {
           </p>
           <p className='text-gray-400'>
             As a developer you have everything available to you and all thats holding you back is yourself.
+          </p>
+          <p className='text-gray-400'>
+            A quote I live by  perfectly illustrates what i mean
+          </p>
+          <p className='text-gray-400'>
+            "How big would you dream, if you knew you wouldn't fail?" You've already gone through the hardest
+            parts of being a developer, its time to elavate your skills and become a leader in something you are passionate
+            about.
+          </p>
+          <p className='text-gray-400'>
+            I'm happy to chat over coffee sometime about how i can help your company
           </p>
         </div>
       </section>
