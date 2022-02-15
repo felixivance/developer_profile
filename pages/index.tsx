@@ -26,14 +26,35 @@ export default function Home() {
       </div>
 
 {/*     Main banner */}
-      <section className='pl-3 pr-3 pt-5'>
+      <section className='pl-3 pr-3 pt-10 '>
         <div className='text-white'>
-          <p className='text-4xl font-play-fair'>Helping Companies build better, scalable software.</p>
+          <p className='text-4xl font-play-fair max-w-lg'>Helping Companies build better, scalable software.</p>
 
-          <p className='text-gray-400'>Award-winning web developer and author, with over 15+ years of working experience with 
+          <p className='text-gray-400 max-w-2xl'>Award-winning web developer and author, with over 15+ years of working experience with 
             Fortune 500 companies like Apple, Google, Facebook and more. </p>
         </div>
       </section>
+      {/* images  */}
+      <div className='flex  space-x-2 justify-items-center'>
+       <div>
+       <Image src="/assets/images/Walmart.svg" alt="walmart"  width={100} height={100} />
+       </div>
+       <div>
+        <Image src="/assets/images/jp_morgan.svg" alt="jp"  width={100} height={100} />
+       </div>
+       <div>
+        <Image src="/assets/images/Visa.svg" alt="jp"  width={100} height={100} />
+       </div>
+       <div>
+        <Image src="/assets/images/Tinder.svg" alt="jp"  width={100} height={100} />
+       </div>
+       <div>
+        <Image src="/assets/images/Samsung.svg" alt="jp"  width={100} height={100} />
+       </div>
+       <div>
+        <Image src="/assets/images/Verizon.svg" alt="jp"  width={100} height={100} />
+       </div>
+      </div>
     </div>
   )
 }
