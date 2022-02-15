@@ -12,15 +12,27 @@ export default function Home() {
       </Head>
   
   {/* nav */}
-      <div className='flex items-center justify-between p-3'>
+      <div className='flex items-center justify-between p-3 text-white'>
         {/* left  */}
-        <div className='text-white'>
+        <div className=''>
           {/* <Image src="/assets/images/jp_morgan.svg" alt="Jonathan Specter logo" className="w-10 h-10" width={100} height={70} /> */}
           <p className='text-2xl text-gray-300 font-play-fair'>Johnathan Specter</p>
         </div>
-          
-        {/* right */}
-        <div className=''>
+          {/* middle */}
+          <div className=' space-x-6 text-gray-400 hidden md:inline-flex'>
+            <p>Articles</p>
+            <p>Chats</p>
+            <p>Awards</p>
+            <p>About</p>
+          </div>
+          {/* right desktop */}
+        <div className='hidden md:inline-flex'>
+            <div className='bg-yellow-300 pt-2 pb-2 pl-4 pr-4 text-black font-play-fair  '>
+              Get in touch
+              </div>
+        </div>
+        {/* right  mobile*/}
+        <div className='md:hidden'>
           <Image src="/assets/images/hamburger.svg" alt="Menu" className="w-10 h-10" width={50} height={20} />
         </div>
       </div>
