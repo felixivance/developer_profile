@@ -106,6 +106,38 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="pl-3 pr-3 text-white">
+        <div className='flex flex-col pt-20 space-y-5 pb-20'>
+          <p className='text-4xl font-play-fair'>Interested in working with me?</p>
+          <p className='text-gray-400'>
+            I am active on all social media platforms listed below, but you can also reach me via email,
+            and i will get back to you within 24 hours.
+          </p>
+          <div className='w-[200px] '>
+            <div className='bg-yellow-300 pl-9 pr-9 pt-4 pb-4 text-black font-play-fair text-2xl '>
+             Get in touch
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      {/* footer */}
+      <footer className="p-4 bg-gray-800 text-white ">
+        <div className='flex justify-between'>
+          <p className='text-2xl text-gray-300 font-play-fair'>Johnathan Specter</p>
+          <div className='flex space-x-4 items-center'>
+            <div>
+              <Image src="/assets/images/Github.svg" alt="spense" className="rounded-md" width={30} height={30} />
+            </div>
+            <div>
+            <Image src="/assets/images/LinkedIn.svg" alt="spense" className="rounded-md" width={30} height={30}  />
+            </div>
+            <div>
+            <Image src="/assets/images/Samsung.svg" alt="spense" className="rounded-md" width={60} height={40}  />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
