@@ -42,7 +42,7 @@ export default function Home() {
         <div className='text-white'>
           <p className='text-4xl font-play-fair max-w-lg'>Helping Companies build better, scalable software.</p>
 
-          <p className='text-gray-400 max-w-2xl'>Award-winning web developer and author, with over 15+ years of working experience with 
+          <p className='text-gray-400 max-w-2xl pt-3'>Award-winning web developer and author, with over 15+ years of working experience with 
             Fortune 500 companies like Apple, Google, Facebook and more. </p>
         </div>
       </section>
