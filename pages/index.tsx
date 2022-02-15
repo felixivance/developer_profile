@@ -36,24 +36,24 @@ export default function Home() {
       </section>
       {/* images  */}
      <section id="brands" className="pl-3 pr-3">
-      <div className='flex  space-x-2 justify-items-center'>
-        <div>
+      <div className='flex space-x-4  mx-auto  items-center'>
+        <div className='flex items-center'>
         <Image src="/assets/images/Walmart.svg" alt="walmart"  width={100} height={100} />
         </div>
-        <div>
+        <div className=''>
           <Image src="/assets/images/jp_morgan.svg" alt="jp"  width={100} height={100} />
         </div>
-        <div>
+        <div className=''>
           <Image src="/assets/images/Visa.svg" alt="visa"  width={100} height={100} />
         </div>
         <div>
-          <Image src="/assets/images/Tinder.svg" alt="tinder"  width={100} height={100} />
+          <Image src="/assets/images/Tinder.svg" alt="tinder"  width={100} height={200} />
         </div>
         <div>
-          <Image src="/assets/images/Samsung.svg" alt="samsung"  width={100} height={100} />
+          <Image src="/assets/images/Samsung.svg" alt="samsung"  width={100} height={200} />
         </div>
         <div>
-          <Image src="/assets/images/Verizon.svg" alt="verizon"  width={100} height={100} />
+          <Image src="/assets/images/Verizon.svg" alt="verizon"  width={100} height={200} />
         </div>
         </div>
      </section>
