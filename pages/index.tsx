@@ -16,7 +16,7 @@ export default function Home() {
         {/* left  */}
         <div className='text-white'>
           {/* <Image src="/assets/images/jp_morgan.svg" alt="Jonathan Specter logo" className="w-10 h-10" width={100} height={70} /> */}
-          <p className='text-xl text-gray-200 font-play-fair'>Johnathan Specter</p>
+          <p className='text-2xl text-gray-300 font-play-fair'>Johnathan Specter</p>
         </div>
           
         {/* right */}
